@@ -6,12 +6,12 @@
   .navbar-brand {
     font-family: $font-family-sans-serif;
     font-weight: $font-weight-bold;
-    color: $gray-900;
+    color: $white;
   }
   .navbar-nav {
     .nav-item {
       .nav-link {
-        color: $gray-600;
+        color: $white;
         font-family: $font-family-sans-serif;
         font-weight: $font-weight-bold;
         font-size: 0.9rem;
@@ -31,18 +31,18 @@
     box-shadow: none;
     background-color: transparent;
     .navbar-brand {
-      color: fade-out($white, .3);
+      color: $white;
       &:hover {
-        color: $white;
+        color: fade-out($white, .3);
       }
     }
     .navbar-nav {
       .nav-item {
         .nav-link {
-          color: fade-out($white, .3);
+          color: $white;
           padding: 0 1rem;
           &:hover {
-            color: $white;
+            color: fade-out($white, .3);
           }
         }
         &:last-child {

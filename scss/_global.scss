@@ -39,3 +39,16 @@ hr.light {
 .page-section {
   padding: 8rem 0;
 }
+
+// Remove focus
+textarea:focus,
+input:focus, 
+button:focus,
+a:focus {
+  border-color: unset;
+  outline: 0;
+  /* IE6-9 */
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
