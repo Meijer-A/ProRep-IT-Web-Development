@@ -10612,7 +10612,11 @@ a:focus {
 @media (max-width: 576px) {
   form div.row {
     padding: 0 15px;
-    margin-right: 0;
+  }
+  form button {
+    margin-top: 28px;
+    height: 38px;
+    width: 100%;
   }
 }
 
@@ -10702,31 +10706,6 @@ form button {
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
     color: #0090e3;
   }
-}
-
-.bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: #333;
-  margin: 6px 0;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
-  background-color: #B2B2B2;
-}
-
-.change .bar2 {
-  opacity: 0;
-}
-
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
-  background-color: #B2B2B2;
 }
 
 header.masthead {

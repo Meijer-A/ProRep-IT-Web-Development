@@ -58,7 +58,12 @@ form {
   @media (max-width: 576px) {
     div.row {
       padding: 0 15px;
-      margin-right: 0;
+    }
+
+    button {
+      margin-top: 28px;
+      height: 38px;
+      width: 100%;
     }
   }
 
