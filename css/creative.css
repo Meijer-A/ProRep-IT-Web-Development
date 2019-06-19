@@ -10612,7 +10612,11 @@ a:focus {
 @media (max-width: 576px) {
   form div.row {
     padding: 0 15px;
-    margin-right: 0;
+  }
+  form button {
+    margin-top: 28px;
+    height: 38px;
+    width: 100%;
   }
 }
 
