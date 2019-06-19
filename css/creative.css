@@ -10732,8 +10732,8 @@ form button {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), color-stop(80%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 80%, rgba(0, 0, 0, 0.7) 100%), url("../img/bg-masthead.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), color-stop(80%, rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.5))), url("../img/ProRep-IT-Responsive.svg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.2) 80%, rgba(0, 0, 0, 0.5) 100%), url("../img/ProRep-IT-Responsive.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
