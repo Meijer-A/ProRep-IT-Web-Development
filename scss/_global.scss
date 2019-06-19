@@ -45,10 +45,32 @@ textarea:focus,
 input:focus, 
 button:focus,
 a:focus {
-  border-color: unset;
-  outline: 0;
+  border-color: unset !important;
+  outline: 0 !important;
   /* IE6-9 */
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+// Form
+form {
+  @media (max-width: 576px) {
+    div.row {
+      padding: 0 15px;
+    }
+  }
+
+  .textfield-right {
+    height: 188px !important;
+    
+    textarea {
+      resize: none;
+    }
+  }
+  
+  button {
+    margin-top: 28px;
+    height: 38px;
+  }
 }

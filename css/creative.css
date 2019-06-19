@@ -10602,11 +10602,30 @@ textarea:focus,
 input:focus,
 button:focus,
 a:focus {
-  border-color: unset;
-  outline: 0;
+  border-color: unset !important;
+  outline: 0 !important;
   /* IE6-9 */
-  -webkit-box-shadow: none;
-  box-shadow: none;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 576px) {
+  form div.row {
+    padding: 0 15px;
+  }
+}
+
+form .textfield-right {
+  height: 188px !important;
+}
+
+form .textfield-right textarea {
+  resize: none;
+}
+
+form button {
+  margin-top: 28px;
+  height: 38px;
 }
 
 #mainNav {

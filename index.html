@@ -145,53 +145,54 @@
   <section class="page-section" id="contact">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
+        <div class="text-center">
           <h2 class="mt-0">Maak nu een afspraak!</h2>
           <p class="text-muted mb-5 mt-3">Wil je door ons jouw website laten maken? Stuur dan nu een mail of vul ons form in!</p>
-          <div class="row mt-5">
-            <div class="col-lg-8 mx-auto">
-               <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-               <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-               <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                  <div class="control-group">
-                     <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                        <label class="float-left">Uw naam</label>
+          <div class="mt-5">
+            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+              <div class="row">
+                  <div class="col-lg-6">
+                    <div class="control-group">
+                      <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                        <label class="float-left">Naam *</label>
                         <input class="form-control" id="name" type="text" placeholder="Naam" required="required" data-validation-required-message="Vul uw naam in.">
                         <p class="help-block text-danger"></p>
-                     </div>
-                  </div>
-                  <div class="control-group">
-                     <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                        <label class="float-left">Uw e-mail adres</label>
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                        <label class="float-left">E-mail *</label>
                         <input class="form-control" id="email" type="email" placeholder="E-mail adres" required="required" data-validation-required-message="vul uw E-mail adres in.">
                         <p class="help-block text-danger"></p>
-                     </div>
-                  </div>
-                  <div class="control-group">
-                     <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                        <label class="float-left">Uw telefoonnummer</label>
-                        <input class="form-control" id="phone" type="tel" placeholder="Telefoonnummer" required="required" data-validation-required-message="vul uw telefoonnummer in.">
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                        <label class="float-left">Telefoonnummer</label>
+                        <input class="form-control" id="phone" type="tel" placeholder="Telefoonnummer">
                         <p class="help-block text-danger"></p>
-                     </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="control-group">
-                     <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                        <label class="float-left">Vragen / opmerkingen:</label>
+                  <div class="col-lg-6">
+                    <div class="control-group textfield-right">
+                      <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                        <label class="float-left">Vraag / opmerking *:</label>
                         <textarea class="form-control" id="message" rows="5" placeholder="" required="required" data-validation-required-message="vermeld uw probleem."></textarea>
                         <p class="help-block text-danger"></p>
-                     </div>
+                      </div>
+                    </div>
+                    <div id="success"></div>
+                    <div class="form-group mt-1 text-left">
+                      <button type="submit" class="btn btn-primary" id="sendMessageButton">Neem contact op met ons!</button>
+                    </div>
                   </div>
-                  <br>
-                  <div id="success"></div>
-                  <div class="form-group">
-                     <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
-                  </div>
-               </form>
+                </div>
+              </form>
             </div>
-         </div>
+          </div>
         </div>
-      </div>
-      <div class="row mt-5">
+        <div class="row mt-5">
         <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
           <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
           <div>+1 (202) 555-0149</div>
