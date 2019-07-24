@@ -23,7 +23,7 @@ header.masthead {
     h1, h2, h3, h4, h5, h6, p {
       text-align: center;
     }
-      background: linear-gradient(to bottom, #{fade-out($black, .8)} 0%,#{fade-out($black, .7)} 80%,#{fade-out($black, .5)} 100%), url('../img/masterhead/bg-masterheadSmall.jpg');
+      background: linear-gradient(to bottom, #{fade-out($black, .8)} 0%,#{fade-out($black, .7)} 80%,#{fade-out($black, .5)} 100%), url('../img/masterhead/bg-masterheadMedium.jpg');
       background-position: center;
       background-repeat: no-repeat;
       background-attachment: scroll;
