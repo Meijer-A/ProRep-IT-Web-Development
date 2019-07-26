@@ -4,13 +4,12 @@ header.masthead {
   padding-bottom: calc(10rem - #{$navbar-height});
   // replace the masthead.jpg image in the /img directory to change the image
   // if the image name change, make sure to update the url path below!
-  background: linear-gradient(to bottom, #{fade-out($black, .9)} 0%,#{fade-out($black, .8)} 80%,#{fade-out($black, .5)} 100%), url('../img/masterhead/bg-masterheadLarge.jpg');
+  background: linear-gradient(to bottom, #{fade-out($black, .8)} 0%,#{fade-out($black, .7)} 80%,#{fade-out($black, .4)} 100%), url('../img/masterhead/bg-masterheadLarge.jpg');
   //background: linear-gradient(to bottom, #{fade-out($white, 1)} 0%,#{fade-out($white, .9)} 90%,#{fade-out($white, .3)} 100%), url('../img/bg-masterhead.svg');
   //background: url('../img/masterhead/bg-masterheadLarge.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover;
   
   h1 {
     font-size: 2.25rem;
@@ -23,7 +22,7 @@ header.masthead {
     h1, h2, h3, h4, h5, h6, p {
       text-align: center;
     }
-      background: linear-gradient(to bottom, #{fade-out($black, .8)} 0%,#{fade-out($black, .7)} 80%,#{fade-out($black, .5)} 100%), url('../img/masterhead/bg-masterheadMedium.jpg');
+      background: linear-gradient(to bottom, #{fade-out($black, .8)} 0%,#{fade-out($black, .7)} 80%,#{fade-out($black, .5)} 100%), url('../img/masterhead/bg-masterheadMedium .jpg');
       background-position: center;
       background-repeat: no-repeat;
       background-attachment: scroll;
