@@ -1,6 +1,6 @@
 section.offers{
     padding-top: 10rem;
-    background-image:  linear-gradient(to bottom, #{fade-out($black, .8)} 0%,#{fade-out($black, .7)} 80%,#{fade-out($black, .4)} 100%), url('../img/bg-price/pricebg-medium.jpg');
+    background-image:  linear-gradient(to bottom, #{fade-out($black, .6)} 0%,#{fade-out($black, .5)} 80%,#{fade-out($black, .4)} 100%), url('../img/bg-price/pricebg-medium.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -16,4 +16,26 @@ section.offers{
 }
 .sp-item-background {
     background-color: rgba(255, 255, 255, 0);
+}
+
+.list-group-item {
+    padding: 10px 5px;
+
+    .fa-check {
+        padding-right: 5px;
+    }
+}
+
+// @include media-breakpoint-down(md) {
+//     .sp-background {
+//         width: 30%;
+//         flex: 30%;
+//         max-width: 30%;
+//     }
+// }
+@include media-breakpoint-down(sm) {
+    .sp-background {
+        margin: 0 5px;
+        // background-color: aquamarine;
+    }
 }

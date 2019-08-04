@@ -92,3 +92,13 @@ form {
   width: 100%;
   max-width: 95%;
 }
+
+// contact
+#contact {
+  @include media-breakpoint-down(sm) {
+    p {
+      padding: 0 5px;
+    }
+  }
+  
+}
