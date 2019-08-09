@@ -20,6 +20,10 @@ section.offers{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+
+        .pricing-btn {
+            margin-top: 1rem;
+        }
     }
 }
 .sp-item-background {
@@ -36,14 +40,6 @@ section.offers{
     }
 }
 
-
-// @include media-breakpoint-down(md) {
-//     .sp-background {
-//         width: 30%;
-//         flex: 30%;
-//         max-width: 30%;
-//     }
-// }
 @include media-breakpoint-down(sm) {
     .sp-background {
         margin: 0 5px;
