@@ -36,8 +36,9 @@
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic'
     rel='stylesheet' type='text/css'>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Jquery ajax -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="form.js"></script>
 
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
@@ -48,7 +49,6 @@
 </head>
 
 <body id="page-top">
-
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
@@ -230,29 +230,27 @@
           <h2 class="mt-0">Maak nu een afspraak!</h2>
           <p class="text-muted mb-5 mt-3 text-center">Wil je door ons jouw website laten maken? Stuur dan nu een mail of vul ons form in!</p>
           <div class="mt-5">
-            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+            <form role="form" method="post" name="sentMessage" id="contactForm">
               <div class="row">
                 <div class="col-lg-6 col-sm-12">
                   <div class="control-group">
                     <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                      <label class="float-left">Naam *</label>
-                      <input class="form-control" id="name" type="text" placeholder="Naam" required="required"
-                        data-validation-required-message="Vul uw naam in.">
+                      <label for="name" class="float-left">Naam *</label>
+                      <input type="text" class="form-control" id="name" name="name" required>
                       <p class="help-block text-danger"></p>
                     </div>
                   </div>
                   <div class="control-group">
                     <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                      <label class="float-left">E-mail *</label>
-                      <input class="form-control" id="email" type="email" placeholder="E-mail adres" required="required"
-                        data-validation-required-message="vul uw E-mail adres in.">
+                      <label for="email" class="float-left">E-mail *</label>
+                      <input type="email" class="form-control" id="email" name="email" required>
                       <p class="help-block text-danger"></p>
                     </div>
                   </div>
                   <div class="control-group">
                     <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                      <label class="float-left">Telefoonnummer</label>
-                      <input class="form-control" id="phone" type="tel" placeholder="Telefoonnummer">
+                      <label for="phonenumber" class="float-left">Telefoonnummer</label>
+                      <input type="text" class="form-control" id="phonenumber" name="phonenumber" required>
                       <p class="help-block text-danger"></p>
                     </div>
                   </div>
@@ -260,20 +258,21 @@
                 <div class="col-lg-6 col-sm-12">
                   <div class="control-group textfield-right">
                     <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                      <label class="float-left">Vraag / opmerking *:</label>
-                      <textarea class="form-control" id="message" rows="5" placeholder="" required="required"
-                        data-validation-required-message="vermeld uw probleem."></textarea>
+                      <label  for="message"  class="float-left">Vraag / opmerking *:</label>
+					            <textarea class="form-control" type="textarea" id="message" name="message" maxlength="6000" rows="5"></textarea>
                       <p class="help-block text-danger"></p>
                     </div>
                   </div>
                   <div id="success"></div>
                   <div class="form-group mt-1 text-left">
-                    <button type="submit" class="btn btn-primary" id="sendMessageButton">Neem contact op met
+                    <button type="submit" class="btn btn-primary">Neem contact op met
                       ons!</button>
                   </div>
                 </div>
               </div>
             </form>
+            <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Het bericht is verzonden, we zullen zo snel mogelijk contact met je opnemen!</h3> </div>
+            <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3>Er heeft zich een fout voorgedaan met het verzenden van jouw bericht probeer het later nog eens.</div>
           </div>
         </div>
       </div>
@@ -307,9 +306,5 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>
-
-  <!-- Contact form scripts -->
-  <script src="js/contact.min.js"></script>
 </body>
-
 </html>
