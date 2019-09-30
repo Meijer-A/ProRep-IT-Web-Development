@@ -39,6 +39,27 @@ section.offers{
         padding-right: 5px;
     }
 }
+.pakket-info-btn {
+    margin-bottom: 5px;
+}
+
+span.ssl-info:hover + .ssl-info-block {
+    display: block;
+  }
+
+div.ssl-info-block {
+    display: none;
+    width:100%;
+    position: absolute;
+    bottom: 31px;
+    left: 143px;
+    background-color: white !important;
+}
+@media (max-width: 1500px) {
+    div.ssl-info-block {
+        left: -60px;
+    }
+}
 
 @include media-breakpoint-down(sm) {
     .sp-background {
@@ -49,5 +70,8 @@ section.offers{
     section.offers{
         padding-top: 5rem;
         padding-bottom: 1rem;
+    }
+    div.ssl-info-block {
+        left: 0;
     }
 }
