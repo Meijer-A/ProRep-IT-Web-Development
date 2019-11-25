@@ -59,6 +59,10 @@ a:focus {
 
 // Form
 form {
+  #captcha {
+    display: none;
+  }
+
   @media (max-width: 576px) {
     div.row {
       padding: 0 15px;
