@@ -18,12 +18,5 @@ $validator->fields(['name','email'])->areRequired()->maxLength(50);
 $validator->field('email')->isEmail();
 $validator->fields(['phonenumber'])->areRequired();
 $validator->field('message')->maxLength(6000);
-$captcha->field('captcha');
-
-if($captcha){
-    die("Spam");
-} else {
-    $pp->sendEmailTo('info@prorepit.nl'); // ← Your email here
-}
 
 echo $pp->process($_POST);
