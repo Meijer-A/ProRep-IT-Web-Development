@@ -10983,3 +10983,14 @@ div.ssl-info-block {
 #timeblockr .timeblockr_userprofile-fields .timeblockr_formfield {
   margin-top: 4px;
 }
+
+#timeblockr_dateselector .calendar-icon {
+  margin-left: 200px;
+  margin-bottom: 4px;
+}
+
+.ui-widget-header {
+  border: 1px solid #0090e3;
+  background: #0090e3;
+  color: #fff;
+}
