@@ -10994,3 +10994,15 @@ div.ssl-info-block {
   background: #0090e3;
   color: #fff;
 }
+
+#timeblockr .timeblockr_location {
+  display: none;
+}
+
+#timeblockr .timeblockr_ticketnumber {
+  display: none;
+}
+
+#timeblockr .timeblockr_price {
+  display: none;
+}
