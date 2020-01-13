@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Creative v5.1.7 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 
@@ -10919,4 +10919,90 @@ div.ssl-info-block {
 
 .navbar-inverted a {
   color: #000000 !important;
+}
+
+#timeblockr {
+  max-width: 75%;
+  margin: auto;
+}
+
+.timeblockr .loader, .timeblockr-plugin > .loader {
+  background-color: #0090e3;
+}
+
+#timeblockr .timeblockr_button {
+  background-color: #0090e3;
+}
+
+#timeblockr .timeblockr_button:hover {
+  background-color: #0078bd;
+}
+
+#timeblockr .ui-widget-header {
+  border: 1px solid #0090e3;
+  background: #0090e3;
+}
+
+#timeblockr .timeblockr_progress-indicator {
+  background-color: #0090e3;
+}
+
+#timeblockr .timeblockr_vertical .timeblockr_active > .accordion {
+  border-top: 3px solid #0090e3;
+}
+
+#timeblockr {
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+#timeblockr_basket .timeblockr_delete-product .glyphicon-remove {
+  top: 1;
+  left: 1;
+}
+
+#timeblockr_licenseplate input[type="text"] {
+  margin-top: 3px;
+}
+
+#timeblockr .timeblockr_view-data .timeblockr_fieldset > div > :first-child:not(a) {
+  width: 240px;
+}
+
+#timeblockr .timeblockr_basket-addanotherproduct, .timeblockr_basket-canceladd a, .timeblockr_prev-holder a, .timeblockr_next-holder a, .timeblockr_edit-controls a, .timeblockr_previous-route {
+  color: #0090e3;
+}
+
+#timeblockr .timeblockr_basket-addanotherproduct:hover, .timeblockr_basket-canceladd:hover, .timeblockr_prev-holder a:hover, .timeblockr_next-holder a:hover, .timeblockr_edit-controls a:hover, .timeblockr_previous-route:hover {
+  color: #0078bd;
+}
+
+#timeblockr .timeblockr_grid-container .timeblockr_select-appointment .timeblockr_postalcode_selection {
+  margin-bottom: 5px;
+}
+
+#timeblockr .timeblockr_userprofile-fields .timeblockr_formfield {
+  margin-top: 4px;
+}
+
+#timeblockr_dateselector .calendar-icon {
+  margin-left: 200px;
+  margin-bottom: 4px;
+}
+
+.ui-widget-header {
+  border: 1px solid #0090e3;
+  background: #0090e3;
+  color: #fff;
+}
+
+#timeblockr .timeblockr_location {
+  display: none;
+}
+
+#timeblockr .timeblockr_ticketnumber {
+  display: none;
+}
+
+#timeblockr .timeblockr_price {
+  display: none;
 }
