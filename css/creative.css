@@ -10657,8 +10657,8 @@ form button {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), color-stop(80%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.6))), url("../img/masterhead/bg-masterheadLarge.jpg");
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 80%, rgba(0, 0, 0, 0.6) 100%), url("../img/masterhead/bg-masterheadLarge.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), color-stop(80%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.6))), url("../img/masterhead/bg-masterhead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 80%, rgba(0, 0, 0, 0.6) 100%), url("../img/masterhead/bg-masterhead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10753,8 +10753,8 @@ header.masthead h1 {
 
 section.offers {
   padding-top: 10rem;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), color-stop(80%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.6))), url("../img/bg-price/pricebg-large.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 80%, rgba(0, 0, 0, 0.6) 100%), url("../img/bg-price/pricebg-large.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), color-stop(80%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.6))), url("../img/bg-price/price-bg.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 80%, rgba(0, 0, 0, 0.6) 100%), url("../img/bg-price/price-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

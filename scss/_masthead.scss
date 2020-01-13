@@ -2,7 +2,7 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - #{$navbar-height});
-  background: linear-gradient(to bottom, #{fade-out($black, .6)} 0%,#{fade-out($black, .5)} 80%,#{fade-out($black, .4)} 100%), url('../img/masterhead/bg-masterheadLarge.jpg');
+  background: linear-gradient(to bottom, #{fade-out($black, .6)} 0%,#{fade-out($black, .5)} 80%,#{fade-out($black, .4)} 100%), url('../img/masterhead/bg-masterhead.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
